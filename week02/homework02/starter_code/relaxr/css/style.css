@@ -1,0 +1,178 @@
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body{
+	color: black;
+	line-height: 1.4;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+/* Center the Container */
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.container2 {
+	width: 900px;
+	margin: 0 auto;
+	background-color: green;
+}
+
+.logo {
+	font-size: 48px;
+	font-weight: 800;
+	color: white;
+}
+
+.pageIntro {
+	background: url("../images/header_bg.jpg") top center;
+	background-size: cover;
+	padding: 30px 0;
+}
+
+.quotebackground {
+ 	background: url("../images/testimonial_bg.jpg") center;
+ 	background-size: cover;
+	padding: 30px 0;
+}
+
+
+.tagline {
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	margin: 120px 0 90px;
+	font-weight: 600;
+}
+
+.btn {
+	border-radius: 5px;
+	font-weight: 800;
+	padding: 12px 0;
+	width: 150px;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn2 {
+	border-radius: 5px;
+	font-weight: 800;
+	padding: 12px 0;
+	width: 150px;
+	font-size: 12px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.btn-cta {
+	background: #F9E42E;
+	color: #033048;
+}
+
+/*Core Styles*/
+
+.relaxr-corestyles p {
+  font-size: 26px;
+}
+
+.relaxr-corestyles p.featuredText {
+  font-style:italic;
+  font-size: 30px;
+}
+.relaxr-corestyles strong {
+  font-weight:bold;
+}
+
+.relaxr-corestyles em {
+  font-style:italic;
+  color: white;
+  font-size: 24px;
+}
+
+.relaxr-corestyles p.featuredText em {
+  font-style: normal;
+}
+
+.relaxr-corestyles h1, .relaxr-corestyles h2, .relaxr-corestyles h3, .relaxr-corestyles h4, .relaxr-corestyles h5,.relaxr-corestyles h6 {
+  color: #033048;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.relaxr-corestyles h1 {
+  font-size: 40px;
+}
+
+.relaxr-corestyles h2 {
+  font-size: 32px;
+}
+
+.relaxr-corestyles h3 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.relaxr-corestyles h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.relaxr-corestyles h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.relaxr-corestyles h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.relaxr-corestyles ul, .relaxr-corestyles ol {
+  margin: 30px 0 30px 80px;
+}
+
+.relaxr-corestyles ul ul, .relaxr-corestyles ol ol {
+  margin: 12px 0 12px 40px;
+}
+
+.relaxr-corestyles li {
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+.relaxr-corestyles ul {
+  list-style: disc;
+}
+
+.relaxr-corestyles > ol > li > ol {
+  list-style: upper-roman;
+}
+
+.relaxr-corestyles ol {
+  list-style: decimal;
+}
